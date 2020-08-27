@@ -69,7 +69,7 @@ var courses =[
     {
         "id": 11,
         name: "The Secrets of Body Language",
-        img:"https://i.imgur.com/7eh6eqO.png",
+        img:"https://i.imgur.com/6iNQ2PRg.png",
         price: 200
     },
     {

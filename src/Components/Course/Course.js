@@ -8,13 +8,18 @@ const Course = (props) => {
             <div className="single-item text-center my-4">
                 <div className="card p-2 display pic">
                   <img className="card-img-top" src={img} alt={name}/>
-                  <div className="card-body">
-                          <h6 className="card-title">{name}</h6>
-                             <p className="price">Price: ${price}</p>
+                  <div className="card-body py-3">
+                  
+                      <h6 className="card-title"><b>{name}</b></h6>
+                   
+                          
+                          <p className="price">Price: ${price}</p>
+                          
                             <button className="btn btn-sm btn-info"
                             onClick={()=> props.addToCourse(props.courses)}>
                             Enroll Now
                                 </button>
+                             
                   </div>
                 </div>
 
