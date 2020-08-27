@@ -1,0 +1,21 @@
+.header{
+    text-align: center;
+    
+}
+.brand{
+    font-size: 25px;
+}
+.header nav{
+   
+    line-height: 40px;
+    font-size: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    padding: 5px;
+}
+nav a:hover{
+    background-color: rgb(86, 228, 21);
+}
